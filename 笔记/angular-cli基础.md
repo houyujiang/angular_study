@@ -12,7 +12,7 @@
     安装npm ->安装nodejs
     (使用淘宝镜像及cpm)
     npm install -g cnpm --registry=https//registry.npm.taobao.org
-    cnpm istall -g @angular/cli
+    cnpm install -g @angular/cli
     查看是否成功：
     所有angular命令 ng开头
     ng version (查看是否安装成功)
