@@ -23,9 +23,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "D:\\angular_study\\auction\\node_modules\\admin-lte\\dist\\css\\AdminLTE.min.css",
+              "D:\\angular_study\\auction\\node_modules\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+              "D:\\angular_study\\auction\\node_modules\\admin-lte\\dist\\css\\skins\\skin-blue.min.css",
+              "D:\\angular_study\\auction\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "D:\\angular_study\\auction\\node_modules\\admin-lte\\bower_components\\Ionicons\\css\\ionicons.min.css",
+              "D:\\angular_study\\auction\\node_modules\\admin-lte\\bower_components\\font-awesome\\css\\font-awesome.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "D:\\angular_study\\auction\\node_modules\\admin-lte\\bower_components\\jquery\\dist\\jquery.min.js",
+              "D:\\angular_study\\auction\\node_modules\\bootstrap\\dist\\js\\bootstrap.min.js",
+              "D:\\angular_study\\auction\\node_modules\\admin-lte\\dist\\js\\adminlte.min.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -80,7 +90,9 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../"
+
             ],
             "scripts": [],
             "assets": [
