@@ -1,0 +1,27 @@
+<div class="box-body">
+    <table class="table table-bordered">
+      <tr>
+        <th style="width: 10px">id</th>
+        <th>股票名称</th>
+        <th>股票价格</th>
+        <th>股票评级</th>
+        <th>股票描述</th>
+        <th>股票分类</th>
+        <th>操作</th>
+      </tr>
+      <tr *ngFor="let stock of stocks;let i = index;">
+        <td>{{i+1}}</td>
+        <td>{{stock.name}}</td>
+        <td>{{stock.price}}</td>
+        <td>{{stock.rating}}</td>
+        <td>{{stock.desc}}</td>
+        <td>{{stock.categories}}</td>
+        <td>
+          <a class="btn btn-warning btn-xs">修改</a>
+          <a class="btn btn-danger btn-xs">删除</a>
+        </td>
+
+      </tr>
+
+    </table>
+</div>
