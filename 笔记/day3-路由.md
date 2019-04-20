@@ -25,4 +25,12 @@
     </tr>
 </table>
 
-## 
+## roulterLink 的值是个数组，用来传参数用。
+## 参数快照，参数的订阅
+```
+    this.routeInfo.params.subscribe()参数订阅，每次参数改变，都会改变
+    
+    this.routeInfo.snapshot.params参数快照，入参改变，不会改变；有点节约资源，初始化的时候赋值。
+```
+
+
